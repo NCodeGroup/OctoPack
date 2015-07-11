@@ -7,7 +7,7 @@
 Framework "4.0"
 
 properties {
-	$build_number = "3.0.1-alpha"
+	$build_number = "3.0.42.1"
     $configuration = "Release"
     $nuget_path = "tools\nuget.exe"
 }
@@ -33,11 +33,11 @@ task Versions {
         -file "source\OctoPack.Tasks\Properties\AssemblyInfo.cs" `
         -title "OctoPack Tasks $build_number" `
         -description "MSBuild tasks for OctoPack" `
-        -company "Octopus Deploy Pty. Ltd." `
-        -product "OctoPack $build_number" `
+        -company "NCodeGroup" `
+        -product "NCode.OctoPack $build_number" `
         -clsCompliant false `
         -version $build_number `
-        -copyright "Octopus Deploy Pty. Ltd. 2011 - 2013"	
+        -copyright "NCodeGroup"
 }
 
 task Build -depends Clean, Versions {

@@ -1,8 +1,20 @@
+## Unofficial OctoPack
+
+This is an unofficial NuGet package of OctoPack from Octopus Deploy. This package was created to provide updates to OctoPack in a separate package because it seems that Octopus Deploy is no longer accepting pull request and has ceased making updates to the official package.
+
+This package will follow the official updates and use the same version number using the revision number (4th digit) for additional enhancements. Any contributions from pull requests will also be reviewed and potentially accepted accordingly.
+
+Contains the following enhancements:
+
+ - Added MSBuild property to specify the output directory for newly created packages `/p:OctoPackOutDir=C:\ExampleOutputDir\`
+
+----------
+
 **OctoPack** is an open source project that makes it easy to create [Octopus Deploy](http://octopusdeploy.com)-compatible NuGet packages.
 
 Sounds confusing? Well, NuGet was originally designed for packaging up open-source code libraries for developers to use in Visual Studio. And it also happens to be the perfect format for packaging applications that you want to deploy. As we discuss on [the packaging page](http://octopusdeploy.com/documentation/packaging "Packaging NuGet packages for Octopus"), however, some of the default NuGet conventions and assumptions don't work quite so well for tools like Octopus. So to help you create Octopus-ready NuGet packages, we created a tool called **OctoPack**. 
 
-**Please raise and track issues for this project [here](https://github.com/OctopusDeploy/Issues/issues/).**
+**Please raise and track issues for this project [here](https://github.com/NCodeGroup/OctoPack/issues).**
 
 ## Installing OctoPack
 
@@ -12,9 +24,9 @@ Assuming you have an ASP.NET web site or Windows Service C# (or VB.NET) project,
 2. From the View menu, open Other Windows -> Package Manager Console
 3. In the Default Project drop down, choose the ASP.NET web site or Windows Service project that you would like to package
 
-Install the OctoPack package by typing:
+Install the NCode.OctoPack package by typing:
 
-    Install-Package OctoPack 
+    Install-Package NCode.OctoPack 
 
 You will see output similar to this:
 
