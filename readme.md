@@ -1,6 +1,6 @@
 ## Unofficial OctoPack
 
-This is an unofficial NuGet package of OctoPack from Octopus Deploy. This package was created to provide updates to OctoPack in a separate package because it seems that Octopus Deploy is no longer accepting pull request and has ceased making updates to the official package.
+This is an unofficial NuGet package of OctoPack from Octopus Deploy. This package was created to provide updates to OctoPack in a separate package because it seems that Octopus Deploy is no longer accepting pull requests and has ceased making updates to the official package.
 
 This package will follow the official updates and use the same version number using the revision number (4th digit) for additional enhancements. Any contributions from pull requests will also be reviewed and potentially accepted accordingly.
 
